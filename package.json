@@ -1,0 +1,17 @@
+{
+  "author": "",
+  "dependencies": {
+    "sass": "^1.32.8"
+  },
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "shortcut_page",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "version": "1.0.0"
+}

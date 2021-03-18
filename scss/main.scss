@@ -1,0 +1,88 @@
+@import "icons_color";
+
+
+// General Styles
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.head-inscription {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+/*Items with links*/
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #f4f4f4;
+  border-radius: 15px;
+
+}
+
+.item {
+  margin: 10px auto;
+
+  img {
+    width: 300px;
+    height: auto;
+    display: block;
+  }
+    &:hover
+    {
+    cursor: pointer;
+
+    }
+  }
+
+//Hovers at the bottom
+
+.bankier:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px $bankier-color;
+}
+
+.tvnbis:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px $tvnbis-color;
+}
+
+.pulsbiznesu:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px $pb-color;
+}
+.money:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px $money-color;
+}
+.cmc:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px $cmc-color;
+}
+.nbp:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px $nbp-color;
+}
+.youtube:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px $yt-color;
+}
+.codestats:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px $cmc-color;
+}
+@import "mobile";

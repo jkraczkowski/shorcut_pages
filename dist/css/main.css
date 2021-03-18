@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8; }
+
+a {
+  text-decoration: none; }
+
+.head-inscription {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 2.5rem; }
+
+/*Items with links*/
+.items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #f4f4f4;
+  border-radius: 15px; }
+
+.item {
+  margin: 10px auto; }
+  .item img {
+    width: 300px;
+    height: auto;
+    display: block; }
+  .item:hover {
+    cursor: pointer; }
+
+.bankier:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px #062043; }
+
+.tvnbis:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px #FF9704; }
+
+.pulsbiznesu:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px #C4261D; }
+
+.money:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px #0B3376; }
+
+.cmc:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px #17181B; }
+
+.nbp:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px #006759; }
+
+.youtube:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px #FC021D; }
+
+.codestats:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 4px 2px -2px #17181B; }
+
+@media (max-width: 1200px) {
+  .items {
+    grid-template-columns: 2fr; } }
+
+@media (max-width: 500px) {
+  .items {
+    grid-template-columns: 1fr; } }
